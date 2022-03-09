@@ -1,0 +1,11 @@
+{
+  "name": "triple-tested",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2",
+    "vuepress": "1.4.0"
+  }
+}
