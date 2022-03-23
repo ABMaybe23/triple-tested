@@ -7,9 +7,9 @@
     "dev": "start-test docs:dev 8080 cy:open"
   },
   "devDependencies": {
-    "cypress": "4.2.0",
+    "cypress": "^4.2.0",
     "serve": "11.3.0",
-    "start-server-and-test": "1.10.11",
+    "start-server-and-test": "^1.10.11",
     "vuepress": "1.4.0"
   }
 }
