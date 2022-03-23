@@ -23,6 +23,17 @@ jobs:
       - name: Build site 🏗
         run: npm run docs:build
 
+      name: Install and test 📦✅
+  
+      - name: Install and test 📦✅
+        uses: cypress-io/github-action@v1
+        with:
+          start: 'npm run docs:dev'
+          wait-on: 'http://localhost:8080'
+
+      - name: Build site 🏗
+        run: npm run docs:build
+        
       # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
