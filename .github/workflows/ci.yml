@@ -17,6 +17,9 @@ jobs:
       - name: NPM install 📦
         uses: bahmutov/npm-install@v1
 
+      - run: npm run docs:develop &
+      - run: npm run cy:run
+
       - name: Build site 🏗
         run: npm run docs:build
 
